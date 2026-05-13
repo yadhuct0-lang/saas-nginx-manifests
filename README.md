@@ -1,2 +1,2 @@
 # saas-nginx-manifests
-for saas project
+We are building a cloud-native SaaS prototype that automates the deployment of AI-powered applications using a GitOps workflow. The core of the project is a Kubernetes cluster hosted on AWS EC2, which provides a scalable environment for our services. To eliminate manual work, we’ve integrated ArgoCD, an automation engine that monitors our GitHub repository; whenever we push a change to our configuration files, the cluster automatically updates itself within three minutes to reflect those changes
